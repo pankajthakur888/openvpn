@@ -14,3 +14,7 @@ Update your system. For more information, see Install Software Updates.
 Allow TCP traffic through port 943 and UDP through port 1194 on your firewall. For more information, see Add Rules.
 
 https://openvpn.net/download-open-vpn/
+
+
+/usr/local/openvpn_as/bin/ovpn-init
+
