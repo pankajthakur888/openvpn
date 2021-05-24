@@ -11,3 +11,6 @@ wget https://openvpn.net/downloads/openvpn-as-latest-ubuntu18.amd_64.deb
 sudo dpkg -i openvpn-as-*.deb
 
 rm -r openvpn-as-*.deb
+
+sudo passwd openvpn
+
