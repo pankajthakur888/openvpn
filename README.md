@@ -12,3 +12,5 @@ Ensure that you have not already installed OpenVPN before starting this guide.
 Ensure that you have root access to your Linode or a user account with sudo privilege. For information about creating a user account with sudo privilege, see Add a Limited User Account.
 Update your system. For more information, see Install Software Updates.
 Allow TCP traffic through port 943 and UDP through port 1194 on your firewall. For more information, see Add Rules.
+
+https://openvpn.net/download-open-vpn/
