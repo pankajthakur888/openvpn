@@ -10,5 +10,7 @@ sudo dpkg -i openvpn-as-*.deb
 
 rm -r openvpn-as-*.deb
 
+sudo passwd openvpn
+
 # TROBLE /usr/local/openvpn_as/bin/ovpn-init
 
