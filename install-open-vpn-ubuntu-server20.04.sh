@@ -10,7 +10,9 @@
     sudo dpkg -i openvpn-as-*.deb
             rm -r openvpn-as-*.deb
 
-    sudo passwd openvpn
+    #sudo passwd openvpn
+    password=`sudo echo "$USER"`
+        sudo echo "openvpn:$password" | sudo chpasswd
 
 # Troubleshoot 
 # /usr/local/openvpn_as/bin/ovpn-init
