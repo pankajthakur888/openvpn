@@ -1,6 +1,4 @@
-# openvpn
-
-Manage OpenVPN with OpenVPN Access Server
+# Manage OpenVPN with OpenVPN Access Server
 
 What is OpenVPN?
 OpenVPN is a popular software package which creates encrypted tunnels for secure data transfer. In this guide, you will learn to configure your Linode as a VPN gateway using the OpenVPN Access Server software, and connect your Windows, macOS, or Linux computer to it.
