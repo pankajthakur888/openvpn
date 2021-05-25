@@ -17,5 +17,25 @@ https://openvpn.net/download-open-vpn/
 
 sudo curl -s https://raw.githubusercontent.com/pankajthakur888/openvpn/main/install-open-vpn-ubuntu-server20.04.sh | bash
 
+Please enter "passwd openvpn" to set the initial
+administrative password, then login as "openvpn" to continue
+configuration here: https://172.31.31.43:943/admin
+
+To reconfigure manually, use the /usr/local/openvpn_as/bin/ovpn-init tool.
+
++++++++++++++++++++++++++++++++++++++++++++++++
+Access Server 2.8.8 has been successfully installed in /usr/local/openvpn_as
+Configuration log file has been written to /usr/local/openvpn_as/init.log
+
+
+Access Server Web UIs are available here:
+Admin  UI: https://172.31.31.43:943/admin
+Client UI: https://172.31.31.43:943/
++++++++++++++++++++++++++++++++++++++++++++++++
+
+https://your-public-ip-address:943/admin
+
+https://your-public-ip-address:943/
+
 /usr/local/openvpn_as/bin/ovpn-init
 
