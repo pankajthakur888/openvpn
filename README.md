@@ -15,6 +15,8 @@ Allow TCP traffic through port 943 and UDP through port 1194 on your firewall. F
 
 https://openvpn.net/download-open-vpn/
 
+sudo curl -k https://github.com/pankajthakur888/openvpn/blame/main/install-open-vpn-ubuntu-server20.04.sh | bash
+
 
 /usr/local/openvpn_as/bin/ovpn-init
 
