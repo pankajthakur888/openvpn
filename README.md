@@ -45,5 +45,7 @@ https://your-public-ip-address:943/admin
 
 https://your-public-ip-address:943/
 
+username:- openvpn
+password:- root "your-username"
 /usr/local/openvpn_as/bin/ovpn-init
 
