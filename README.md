@@ -23,6 +23,12 @@ Ubuntu 18.04.5 LTS (Bionic Beaver)
   sudo curl -s https://raw.githubusercontent.com/pankajthakur888/openvpn/main/install-open-vpn-ubuntu-server20.04.sh | bash
 
 
+CentOS7
+  yum install wget
+  wget https://raw.githubusercontent.com/pankajthakur888/openvpn/main/install-open-vpn-centos7.sh && sed -i -e 's/\r$//' centos7.sh && chmod 755 centos7.sh && ./centos7.sh
+
+
+
 Please enter "passwd openvpn" to set the initial
 administrative password, then login as "openvpn" to continue
 configuration here: https://172.31.31.43:943/admin
