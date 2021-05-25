@@ -12,5 +12,7 @@
 
     sudo passwd openvpn
 
-# Troubleshoot /usr/local/openvpn_as/bin/ovpn-init
+# Troubleshoot 
+# /usr/local/openvpn_as/bin/ovpn-init
+# apt --fix-broken install
 
