@@ -8,7 +8,7 @@ curl --output open-vpn.tar https://raw.githubusercontent.com/pankajthakur888/ope
 ## Step 2: Load the Docker Image
 Load the OpenVPN image into Docker.
 ```
-docker load open-vpn.tar
+docker load -i open-vpn.tar
 ```
 
 ## Step 3: Verify the Loaded Image
