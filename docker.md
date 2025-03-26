@@ -3,7 +3,7 @@
 ## Step 1: Download OpenVPN Image
 Download the OpenVPN tar file from the repository.
 ```
-https://github.com/openvpn/raw/refs/heads/main/open-vpn.tar
+curl --output open-vpn.tar https://github.com/openvpn/raw/refs/heads/main/open-vpn.tar
 ```
 
 ## Step 2: Load the Docker Image
